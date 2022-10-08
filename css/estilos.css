@@ -1,0 +1,543 @@
+*{
+	margin:0;
+	padding:0;
+}
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: 'CenturyGothic';
+	src: url('fontletras/CenturyGothic.eot?') format('eot'), 
+	     url('fontletras/CenturyGothic.woff') format('woff'), 
+	     url('fontletras/CenturyGothic.ttf')  format('truetype'),
+	     url('fontletras/CenturyGothic.svg#CenturyGothic') format('svg');
+}
+#maincontent
+{
+	background:url(../img/fondo.jpg)0 0 no-repeat scroll;
+	font-family:CenturyGothic,Arial, sans-serif;
+	width:790px;
+	height:700px;
+	margin:0 auto;
+	padding-top: 173px;
+	/*padding-left: 135px;*/
+	
+}
+#maincontentadmin
+{
+	background:url(../img/fondoadmin.jpg)0 0 no-repeat scroll;
+	font-family:CenturyGothic,Arial, sans-serif;
+
+	width:1200px;
+	height:800px;
+	margin:0 auto;
+	padding-top: 173px;
+	font-size:12px;
+	/*padding-left: 135px;*/
+}
+#editor { width: 400px; height: 300px;}
+
+#sencillo { width: 400px; height: 300px;}
+
+.ofertas
+{
+	/*float: left;*/
+    /*left: 465px;*/
+    margin: 0px auto;
+    position: relative;
+    width: 731px;
+}
+.producto
+{
+	width:40%;
+	margin:1%;
+	padding:5px;
+	float:left;
+}
+/****************************************************************************/
+/*posicion campo de texto nombre*/
+.usuario
+{
+	margin-left: 141px;
+    margin-top: -12px;
+	
+}
+/*posicion campo de texto apellido*/
+.apellido
+{
+	margin-left: 287px;
+    margin-top: -31px;
+}
+/*posicion campo de texto celular*/
+.password
+{
+	margin-left: 138px;
+    margin-top: -25px;
+}
+/*posicion campo de texto email*/
+.rpassw
+{
+	margin-top: -26px;
+	margin-left: 138px;
+}
+/*posicion campo de texto cedula*/
+.nombre
+{
+	margin-top: -24px;
+	margin-left: 138px;
+}
+.ciudad
+{
+	margin-top: -24px;
+	margin-left: 138px;
+}
+/*posicion label de texto nombre*/
+.lusu
+{
+	margin-top: 23px;
+	margin-left: 28px;
+	width: 159px !important;
+	height: 5px !important;
+}
+/*posicion label de texto cel*/
+.lpass
+{
+	margin-left: 34px;
+    margin-top: 28px;
+	/*width:5px;
+	height:5px;*/
+}
+/*posicion label de texto email*/
+.rpass
+{
+	margin-top: 30px;
+	margin-left: 37px;
+/*width:10px;
+	height:5px;*/
+}
+/*posicion label de texto ced*/
+.lnom
+{
+	margin-top: 21px;
+	margin-left: 36px;
+/*width:5px;
+	height:5px;*/
+}
+.lemail
+{
+	margin-left: 36px;
+margin-top: 19px;
+}
+.email
+{
+	margin-left: 137px;
+margin-top: -17px;
+}
+/*diseño de los inputs*/
+input
+{
+	padding:7px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+	
+}
+select
+{
+	padding:7px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+.button
+{
+		padding:7px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+
+}
+.boton
+{
+	margin-left: 134px;
+    margin-top: 16px;	
+	z-index:100;
+}
+.formul a
+{
+	color#fff;
+border: 2px #0000FF solid;
+padding: 5px 20px 10px 40px;
+background-color: #FFFF99;
+background-color:#3a6eaa;
+font-family: CenturyGothic, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+background-image:url(../img/icono2.png);
+background-repeat: no-repeat;
+border-radius: 15px;
+color:#FFF;
+}
+.regresarusu
+{
+	margin-left: 365px;
+}
+.regresarusu a
+{
+	color#fff;
+border: 2px #0000FF solid;
+padding: 5px 20px 10px 40px;
+background-color: #FFFF99;
+background-color:#3a6eaa;
+font-family: CenturyGothic, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+background-image:url(../img/icono2.png);
+background-repeat: no-repeat;
+border-radius: 15px;
+color:#FFF;
+}
+.tit
+{
+	 margin: 0 auto;
+    width: 361px;
+}
+.regresar
+{
+	 margin-left: 394px;
+   
+}
+.regresar a
+{
+	color#fff;
+border: 2px #0000FF solid;
+padding: 5px 20px 10px 40px;
+background-color: #FFFF99;
+background-color:#3a6eaa;
+font-family: CenturyGothic, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+text-decoration: none;
+background-image:url(../img/icono2.png);
+background-repeat: no-repeat;
+border-radius: 15px;
+color:#FFF;
+}
+
+.login
+{
+	margin: 144px auto;
+    width: 476px;
+}
+.panel
+{
+	 margin: 0px auto;
+    width: 37%;
+}
+.imagen1
+{
+	float: left;
+    padding: 10px;
+    width: 373px;
+}
+.linka1
+{
+	float: left;
+    padding: 6px;
+    width: 150px;
+	
+}
+.clear
+{
+	clear:both;
+}
+a:link
+{
+	text-decoration:none;
+}
+.imagenHolder{ width:100px; padding:2px; }
+
+.formul
+{
+	margin: 10px auto;
+    width: 100%;
+}
+.cont
+{
+	float: left;
+    padding: 4px;
+    width: 100%;
+}
+.tituloed
+{
+	margin: 0 auto;
+    width: 346px;
+}	
+
+#fancymenu {
+    height: 30px;
+    margin: 10px auto;
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+    width: 758px;
+}
+
+#fancymenu ul {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 107%;
+}
+
+/* Don't apply padding here (offsetWidth will differ in IE)
+If you need padding add it to the child anchor */
+#fancymenu .menudes li {
+    border: 1px dashed #bbb;
+    float: left;
+    list-style: none outside none;
+}
+
+#fancymenu .menudes li a {
+    background: none repeat scroll 0 0 #2f61a8!important;
+    color: #fff;
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 0 !important;
+    overflow: hidden;
+    padding: 15px 57px;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+td a:link {
+    color: #88a66a;
+    margin-left: 0;
+    text-decoration: none;
+}
+#menu_home a {
+  width: 59px;
+  background-color:#09C !important;
+  background-color:#09C; // ie!
+}
+
+#menu_plantatree a {
+  width: 119px;
+  background-color:#09C !important;
+  background-color:#09C;
+}
+
+#menu_travel a {
+  width: 70px;
+  background-color:#09C !important;
+  background-color:#09C;
+}
+
+#menu_rideanelephant a {
+  width: 142px;
+  background-color:#09C !important;
+ background-color:#09C center;
+}
+#fancymenu li.background {
+  background-color:#09C !important;
+  background-color:#09C top right;
+  z-index: 8;
+  position: absolute;
+  visibility: hidden;
+}
+
+#fancymenu .background .left {
+  background-color:#09C top left !important;
+  background-color:#09C top left;
+  height: 30px;
+  margin-right: 9px; /* 7px is the width of the rounded shape */
+}
+.consulta
+{
+	/*margin-left: -282px;*/
+   margin: 35px auto;
+    width: 102%
+}
+.inscripcion
+{
+	
+	margin: 0px auto;
+    width: 629px;
+}
+.imagens
+{
+	margin:64px auto;
+	float:left;
+	width:252px;
+}
+.imagens img
+{
+	width:90%;
+	margin:0 auto;
+}
+.pro {
+    float: left;
+    margin: 10px;
+    width: 100%;
+}
+.cocina {
+    float: left;
+    width: 164%;
+}
+.cocina ul {
+    color: #686f81;
+    font-size: 14px;
+    padding: 0;
+}
+.cocina h5{
+	/*margin:0;
+	padding:0;
+	clear:both;
+	font-size:24px;
+	color:red;*/
+}
+.cocina p
+{
+	margin-top: 0;
+	
+ 
+  
+}
+.access {
+    float: left;
+}
+ul
+{
+  	float: left; 
+	/*width: 42%;*/ /* room for 3 columns */
+	width:52%;
+	color:#686f81;
+	margin: 3px;
+	padding:2%;
+	font-size:14px;
+}
+ul p
+{
+	width:100%;
+}
+ul p::after
+{
+	clear:both;
+}
+h2
+{
+	color:#686f81;
+}
+p
+{
+	color:#686f81;
+	font-weight:bold;
+	
+}
+ul li
+{
+    /* accommodate the widest item */
+}
+td ul
+{
+	padding-left:15px;
+}
+/* stop the floating after the list */
+br
+{
+  clear: left;
+}
+.titulococ
+{
+	text-transform:none;
+	  color: #686f81;
+    font-size: 43px;
+text-align: center;
+}
+/* separate the list from what follows it */
+
+.accesorios {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+}
+.solpreguntas {
+    float: left;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.texta
+{
+	 margin: 21px auto;
+    width: 101%;
+}
+.textacce
+{
+	float: left;
+    margin: 0 auto;
+    width: 103%;
+}
+.textoenl
+{
+	margin: 15px auto;
+    width: 71%;
+}
+.row1 {
+    float: left;
+    height: 600px;
+    padding: 10px;
+    width: 270px;
+}
+.row2 {
+    float: left;
+    padding: 10px;
+    width: 480px;
+}
+.mostra
+{
+	margin-left:151px;
+}

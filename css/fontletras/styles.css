@@ -1,0 +1,8 @@
+
+@font-face {
+	font-family: 'CenturyGothic';
+	src: url('CenturyGothic.eot?') format('eot'), 
+	     url('CenturyGothic.woff') format('woff'), 
+	     url('CenturyGothic.ttf')  format('truetype'),
+	     url('CenturyGothic.svg#CenturyGothic') format('svg');
+}
